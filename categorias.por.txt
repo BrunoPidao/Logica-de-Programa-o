@@ -1,0 +1,30 @@
+programa
+{
+	/*Bruno Alencar Magalhães*/
+	funcao inicio ()
+	{
+		cadeia nome, catego
+		inteiro idade
+		escreva ("Informe seu nome: ")
+		leia (nome)
+		escreva ("\nInforme sua idade: ")
+		leia (idade)
+		se (idade >=5) e (idade <= 10){
+			escreva ("\n",(nome+", "),"Você pode participar na categoria infatil")
+		} senao se (idade <= 15) {
+			escreva ("\n",(nome + ", "),"Você pode participar na categoria juvenil")
+		} senao se (idade <= 20){
+			escreva ("\n",(nome + ", "),"Você pode participar na categoria junior")
+		} senao se (idade <= 25){
+		escreva ("\n",(nome + ", "),"Você pode participar na categoria profissional")
+		}
+		senao se (idade > 25){
+			escreva ("\n",(nome + ", "),"Você passou da data de validade")
+		}
+		
+		
+		
+		
+		
+	}
+}
