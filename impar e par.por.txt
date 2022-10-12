@@ -1,0 +1,23 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		inteiro num
+		escreva ("Informe o número: ")
+		leia (num)
+		se (num == 0){		
+			escreva ("\nNúmero NULO!")
+		} senao se (num == 5){
+			escreva ("Número igual a 5!")
+		} senao se (num > 20){
+			escreva ("Número maior que 20!")
+		}
+		senao se (num %2 == 0){
+			escreva ("\nNúmero PAR!")
+		} senao se (num %2 == 1){
+			escreva ("\nNúmero IMPAR!")
+		}
+		
+	}
+}

@@ -1,0 +1,28 @@
+programa
+{
+	funcao inicio ()
+	{
+		cadeia time1, time2
+		inteiro gol1, gol2
+		
+		escreva ("Informe o primeiro time: ")
+		leia (time1)
+		escreva ("\nQuantos gols o time do ",time1," fez? ")
+		leia (gol1)
+		limpa ()
+		escreva ("Informe o segundo time: ")
+		leia (time2)
+		escreva ("\nQuantos gols o time do ",time2," fez? ")
+		leia (gol2)
+		limpa()
+		se (gol1 > gol2){
+			escreva ("O ",time1," venceu de ",(gol1 + " : " + gol2))
+		} senao se (gol1 == gol2){
+			escreva ("Deu EMPATE!")
+		} senao {
+			escreva ("O ",time2," venceu de ",(gol2 + " : " + gol1))
+		}
+		
+		
+	}
+}
